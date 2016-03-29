@@ -9,6 +9,7 @@
 
     <LinearLayout
         android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -33,7 +34,7 @@
         android:src="@drawable/line"/>
 
     <LinearLayout
-
+        android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -48,6 +49,29 @@
             android:id="@+id/input2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calculator : "
+            android:textStyle=""/>
+        <TextView
+            android:id="@+id/calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
             />
     </LinearLayout>
     <ImageView
@@ -187,40 +211,41 @@
 
         <Button
             android:id="@+id/one"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="1st value"
             android:onClick="CButton"/>
         <Button
             android:id="@+id/two"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="2st value"
             android:onClick="CButton"/>
 
         <Button
             android:id="@+id/clear"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Clear"
             android:onClick="CButton"/>
 
         <Button
             android:id="@+id/resultButton"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="="
             android:onClick="CButton"/>
     </LinearLayout>
 
     <TextView
-        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Result :"
         android:textStyle=""/>
     <ImageView
+        android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:src="@drawable/line"/>
