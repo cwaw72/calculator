@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    >
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st Value : "
+            android:textStyle=""/>
+        <TextView
+            android:id="@+id/input1"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/line"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2st Value : "
+            android:textStyle=""/>
+        <TextView
+            android:id="@+id/input2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/num0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:onClick="CButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/num5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="5"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="6"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="8"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/num9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="9"
+            android:onClick="CButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+
+            android:id="@+id/add"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Add"
+            android:onClick="CButton"/>
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/subtract"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Subtract"
+            android:onClick="CButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Multiply"
+            android:onClick="CButton"/>
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/divide"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Divide"
+            android:onClick="CButton"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="1st value"
+            android:onClick="CButton"/>
+        <Button
+            android:id="@+id/two"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="2st value"
+            android:onClick="CButton"/>
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Clear"
+            android:onClick="CButton"/>
+
+        <Button
+            android:id="@+id/resultButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="="
+            android:onClick="CButton"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result :"
+        android:textStyle=""/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/line"/>
+
+
+</LinearLayout>
